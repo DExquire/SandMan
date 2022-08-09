@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3147391061490710439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3147391061490710436}
+  - component: {fileID: 3147391061490710437}
+  - component: {fileID: 3147391061490710438}
+  m_Layer: 0
+  m_Name: PolygonColCustomClipper (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3147391061490710436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3147391061490710439}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.21, y: 6.49, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3147391061490710437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3147391061490710439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac1433b6c11d4544a2ea65c251a0651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrain: {fileID: 0}
+--- !u!60 &3147391061490710438
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3147391061490710439}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.1235938, y: -2.64664}
+      - {x: 2.7398307, y: -2.777474}
+      - {x: 2.4087477, y: -2.8755352}
+      - {x: 1.9522052, y: -3.014083}
+      - {x: 1.6117088, y: -3.0618827}
+      - {x: 1.2915545, y: -3.105423}
+      - {x: 1.006871, y: -3.1479318}
+      - {x: 0.54953957, y: -3.1723342}
+      - {x: 0.049923897, y: -3.168006}
+      - {x: -0.48851985, y: -3.1497}
+      - {x: -1.7194184, y: -3.0030484}
+      - {x: -2.6668186, y: -2.7493598}
+      - {x: -3.2654011, y: -2.5241995}
+      - {x: -4.0622754, y: -2.0419931}
+      - {x: -4.5029974, y: -1.6132097}
+      - {x: -4.757148, y: -1.1031008}
+      - {x: -4.8360987, y: -0.74515057}
+      - {x: -4.8326173, y: -0.5063391}
+      - {x: -4.728316, y: -0.42486477}
+      - {x: -4.608042, y: -0.4234743}
+      - {x: -4.615066, y: -0.24913406}
+      - {x: -4.8033414, y: -0.072012424}
+      - {x: -4.8104205, y: 0.35523796}
+      - {x: -1.9131678, y: 0.35328293}
+      - {x: 4.8598742, y: 0.30127048}
+      - {x: 4.855822, y: -0.019404411}
+      - {x: 4.761382, y: -0.13768625}
+      - {x: 4.647894, y: -0.28893852}
+      - {x: 4.646747, y: -0.38779926}
+      - {x: 4.7412148, y: -0.38665962}
+      - {x: 4.9427185, y: -0.6012702}
+      - {x: 4.9388213, y: -0.7514777}
+      - {x: 4.9431367, y: -0.7876749}
+      - {x: 4.9385295, y: -0.9014039}
+      - {x: 4.8717394, y: -1.1547518}
+      - {x: 4.694997, y: -1.5276055}
+      - {x: 4.4389877, y: -1.8160357}
+      - {x: 3.9980512, y: -2.1626773}
+      - {x: 3.605422, y: -2.4059124}
+      - {x: 3.395017, y: -2.5085557}

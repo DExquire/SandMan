@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8254064267685012780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8254064267685012783}
+  - component: {fileID: 8254064267685012782}
+  - component: {fileID: 8254064267685012781}
+  m_Layer: 0
+  m_Name: PolygonColCustomClipper (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8254064267685012783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8254064267685012780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.76, y: 8.88, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8254064267685012782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8254064267685012780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac1433b6c11d4544a2ea65c251a0651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrain: {fileID: 0}
+--- !u!60 &8254064267685012781
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8254064267685012780}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -3.644374, y: -3.4594326}
+      - {x: -3.7963393, y: -3.5094352}
+      - {x: -3.9510322, y: -3.5218692}
+      - {x: -4.1267834, y: -3.4877577}
+      - {x: -4.2256393, y: -3.4168782}
+      - {x: -4.364175, y: -3.2613797}
+      - {x: -4.4611893, y: -2.8948421}
+      - {x: -4.4829397, y: -2.5706391}
+      - {x: -4.4424543, y: -2.0680642}
+      - {x: -4.255575, y: -1.5217791}
+      - {x: -4.079603, y: -1.1346517}
+      - {x: -3.76432, y: -0.8463254}
+      - {x: -3.3496478, y: -0.50437164}
+      - {x: -2.8953815, y: -0.26413345}
+      - {x: -2.2826123, y: -0.020516634}
+      - {x: -1.5067, y: 0.2260685}
+      - {x: -1.064692, y: 0.3305378}
+      - {x: -0.3515606, y: 0.44092464}
+      - {x: 0.16651201, y: 0.4919777}
+      - {x: 0.8415508, y: 0.4878683}
+      - {x: 1.5301571, y: 0.39268208}
+      - {x: 2.1711242, y: 0.28867817}
+      - {x: 1.8248315, y: -0.11141682}
+      - {x: 1.3884468, y: -0.5736098}
+      - {x: 0.73795843, y: -1.1575475}
+      - {x: -0.06588936, y: -1.7491832}
+      - {x: -1.2019162, y: -2.4229403}
+      - {x: -2.8968563, y: -3.151169}
